@@ -1,6 +1,4 @@
 const express = require("express");
-const bodyParser = require("body-parser");
-const axios = require("axios");
 require("dotenv").config(); // Load environment variables from .env file
 const cors = require("cors");
 const app = express();

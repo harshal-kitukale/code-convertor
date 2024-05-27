@@ -49,8 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       responseDiv.innerHTML = editedData;
       responseDiv.appendChild(copyButton);
     } catch (error) {
-      console.error("Error:", error);
-      // responseDiv.innerHTML = "something wrong";
+      responseDiv.innerHTML = "something wrong";
     }
   };
 
