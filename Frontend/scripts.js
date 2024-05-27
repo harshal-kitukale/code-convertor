@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const responseDiv = document.getElementById("response");
 
   // const BASE_URL = 'https://code-converter-api-yfl2.onrender.com';
-  const BASE_URL = "http://localhost:8080";
+  const BASE_URL = "https://code-convertor-by9t.onrender.com";
   // https://backend-hkw5.onrender.com/
 
   const handleButtonClick = async (endpoint) => {
